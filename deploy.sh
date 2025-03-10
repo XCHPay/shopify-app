@@ -13,7 +13,7 @@ cp shopify.app.toml.example shopify.app.toml
 sed -i "s|APP_NAME|${APP_NAME}|g" shopify.app.toml
 sed -i "s|CLIENT_ID|${CLIENT_ID}|g" shopify.app.toml
 sed -i "s|PLUGIN_URL|${PLUGIN_URL}|g" shopify.app.toml
-sed -i "s|PLUGIN_URL|${PLUGIN_URL}|g" extensions/btcpaycheckout/src/Checkout.jsx
+sed -i "s|PLUGIN_URL|${PLUGIN_URL}|g" extensions/xchpaycheckout/src/Checkout.jsx
 echo "Settings saved"
 
 if shopify app deploy -f --no-color; then

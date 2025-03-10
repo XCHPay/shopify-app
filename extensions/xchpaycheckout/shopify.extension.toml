@@ -6,8 +6,8 @@
 api_version = "2024-10"
 
 [[extensions]]
-name = "BTCPay Checkout"
-handle = "btcpaycheckout"
+name = "XCHPay Checkout"
+handle = "xchpaycheckout"
 type = "ui_extension"
 
 
