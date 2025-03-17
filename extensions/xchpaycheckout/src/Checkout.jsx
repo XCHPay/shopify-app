@@ -24,7 +24,6 @@ function Extension() {
 
   return (
     <BlockStack>
-      <Text>Shop name: {shop.name}</Text>
       <Text size="large" alignment="center" bold>Review and pay using XCHPay!</Text>
       <Text>Please review your order and complete the payment using XCHPay.</Text>
       <Banner status="warning" title="Please note: Refunds are not available for payments made with XCH. Thank you for your understanding!"/>
